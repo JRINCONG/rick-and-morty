@@ -84,14 +84,13 @@ console.log('Cargar Api Esta Vacio APP', NoResidenst)
         (!Loading) ? <img src='./img/loading.gif' width='200px' height='200px'/>
         :
         <>
-       
+        
         <header className='header'>
            <img className='banner-1'src='../img/banner.png'/>
             <div className='muneco'>
-            <img className='banner-muneco'src='../img/muñeco.png'/>
             </div>            
           </header>
-     
+         
         <h1 className='App-title'>Rick and Morty App</h1>
       <form className='App-form' onSubmit={Buscar}>
         <input className='App-form-input'type='number' ref={textInput}/>
