@@ -1,0 +1,121 @@
+.Conten-Card{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    flex-wrap: wrap;
+    background-color: #05292E;
+    justify-content: space-evenly;
+    padding: 8px;
+    
+}
+
+
+.figure-Card{
+    position: relative;
+}
+.Residents-Card{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    border: 1px solid #072226;
+    max-width: 250px;
+    background-color: #072226;
+    margin:3px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    transition: transform .5s,
+    box-shadow .5s;
+   
+    
+}
+.Residents-Card:hover{
+
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #f3b304 ;
+    transition: transform .5s,
+                 box-shadow .5s;
+}
+.Residenst-Card-status{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 2px;
+    background-color: #05292E;
+    margin-top: 5px;
+    border-radius: 0 10px 10px 0px;
+    gap:5px;
+    align-items: center;
+    
+}
+.Residenst-Card-status span{
+    padding: 1px;
+  
+}
+.Residen-Card-List{
+    list-style: none;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    gap: 10px;
+
+}
+.Residen-Card-List-items{
+    display: flex;
+    flex-direction: column;
+    gap:3px
+}
+
+.Residenst-hr{
+    padding: 0px 20px 0px 20px;
+}
+.figura-status{
+    border-radius: 80%;
+    background-color: grey;
+    aspect-ratio: 1;
+    width: 15px;
+    height: 15px;
+    
+    
+    
+}
+
+.Resident-circle{
+    align-items: center;
+    display: flex;
+    
+    gap:5px;
+    background-color: grey;
+    width:fit-content;
+    padding: 2px;
+    border-radius: 0% 10% 10% 0%;    
+
+}
+.Residenst-caja-name{
+    display: flex;
+    justify-content: center;
+    
+}
+.Residenst-name{
+    display: flex;
+    text-align: center;
+
+}
+.Residents-Card-span-title{
+    margin-left: 10px;
+    color: gray;
+
+
+}
+.Alive{
+    background-color: red;
+}
+.Dead{
+    background-color: green;
+}
+.unknown{
+    background-color: yellow ;
+}

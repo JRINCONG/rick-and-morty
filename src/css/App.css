@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+    
+}
+body{
+    color: #fff;
+    background-color:#05292E;
+    
+}
+.Contenedor-Principal{
+    display: flex;
+    background-color: #05292E;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap:8px;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.Contenedor-Principal h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.Contenedor-Principal form{
+    margin: 5px
+}
+
+input, button{
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App-form{
+    display: flex;
+    justify-content: center;
+   
+}
+.App-form-button{
+    border: none;
+    background-color: #71A821;
+    border-radius:  0 10px 10px 0;
+    padding: 5px 15px;
+    text-align: center;
+    color: #fff;
+   
+    
+}
+.App-form-input{
+    border-radius: 8px 0 0 8px;
+   
+}
+.App-title{
+    display: flex;
+    color: #fff;
+    text-align: center;
+
+}
+.header{
+   
+    display: flex;
+    overflow: hidden;
+    min-width:  100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
+    object-fit: cover;
+
+    
+}
+.banner-1{
+    display: flex;
+    position: relative;
+    object-fit: cover;
+}
+.muneco{
+    display: flex;
+    position:absolute;
+    top: 150px;
+}
+.banner-muneco{
+    display: flex;
+}
+
+@media  (max-width: 390px){
+
+.header{
+
+    width:  500px;
+    overflow: hidden;
+    object-fit: cover;
+
+}
+.muneco{
+    display: none;
+
+   
+}
+
+
+
+}
