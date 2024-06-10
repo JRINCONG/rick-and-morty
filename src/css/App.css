@@ -98,9 +98,12 @@ input, button{
     align-content: center;
     display: flex;
     position:absolute;
-    top: 50px;
+    top: 30%;
+    object-fit: contain;
+    overflow: hidden;
 }
 .banner-muneco{
     display: flex;
+    overflow: hidden;
 }
 

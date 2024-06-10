@@ -88,6 +88,7 @@ console.log('Cargar Api Esta Vacio APP', NoResidenst)
         <header className='header'>
            <img className='banner-1'src='../img/banner.png'/>
             <div className='muneco'>
+           
             </div>            
           </header>
          
